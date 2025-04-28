@@ -42,20 +42,20 @@ Key preprocessing steps included:
 A variety of models were trained:
 
 ### Baseline Models:
-- **Logistic Regression**
-- **Random Forest**
-- **Scikit-learn Gradient Boosting**
+- [**Logistic Regression**](./logistic-regression.ipynb)
+- [**Random Forest**](./random-forest%20and%20gradient-descent.ipynb)
+- [**Scikit-learn Gradient Boosting**](./random-forest%20and%20gradient-descent.ipynb)
 
 ### Advanced Boosting Models:
-- **XGBoost** – efficient with missing data and regularization.
-- **CatBoost** – native handling of categorical features.
-- **LightGBM** – leaf-wise growth, histogram-based optimization.
+- [**XGBoost**](./xgboost.ipynb) – efficient with missing data and regularization.
+- [**CatBoost**](./catboost.ipynb) – native handling of categorical features.
+- [**LightGBM**](./lgbm.ipynb) – leaf-wise growth, histogram-based optimization.
 
 > Hyperparameter tuning was conducted using **Optuna** with Bayesian optimization.
 
 ## Ensemble Learning
 
-To maximize performance, an ensemble was built by **averaging predictions** from:
+To maximize performance, an [ensemble](./ensemble.ipynb) was built by **averaging predictions** from:
 - XGBoost
 - CatBoost
 - LightGBM
